@@ -94,7 +94,7 @@ else:
         
         st.success(f"🎉 Game Over! Your total score: {score} out of {len(questions_en)}")
         if score == len(questions_en):
-            st.balloons()import streamlit as st
+            st.balloons()
 
 # የገጹ ዲዛይን እና ከለር ማስተካከያ (CSS Styling)
 st.set_page_config(page_title="Ultimate Quiz Game", page_icon="🌟", layout="centered")
